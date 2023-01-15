@@ -1,7 +1,7 @@
 class Device {
 constructor (name, included, power){
   this.name = name,
-  this.included = included || 'off',
+  this.included = included,
   this.power = power
   }
   powerConsumption = function (included, power){
